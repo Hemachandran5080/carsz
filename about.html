@@ -39,11 +39,13 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ml-auto">
                 <a class="nav-item nav-link" href="#compare">Compare</a>
-                <a class="nav-item nav-link" href="#">Interior</a>
+                <a class="nav-item nav-link" href="#footer">Website</a>
                 <a class="nav-item nav-link" href="#pricing">Pricing</a>
             </div>
         </div>
     </nav>
+
+    <script src="color.js"></script>
 
     <div class="content-container">
 
@@ -55,9 +57,19 @@
 
         <div class="img-container">
 
-            <a href="#">
-                <img class="seltos_car" src="images/seltos_car.png" alt="kia-car" />
-            </a>
+                <img  id="image-resize" src="images/seltos_car.png" alt="kia-car" >
+
+        </div>
+
+        <div class="paint-text">
+            <h5 id="textp">Paint:red</h5>
+        </div>
+        <div class="color-container">
+
+            <button class="cir1" onclick="blue()"></button>
+            <button class="cir2" onclick="black()"></button>
+            <button class="cir3" onclick="orange()"></button>
+
 
         </div>
 
@@ -213,7 +225,7 @@
 
 
 
-    <!-- <script src="index.js" charset="utf-8"></script> -->
+<script src="index.js" charset="utf-8"></script>
 </body>
 
 </html>
