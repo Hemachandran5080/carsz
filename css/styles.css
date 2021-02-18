@@ -161,11 +161,13 @@ ul{
     margin: 90px;
 }
 
-.img-container{
-    height: 450px;
-    width:1027;
+#image-resize{
+    height: 440px;
+    width:4000px;
     display: flex;
     align-items: center;
+    position: relative;
+    left:230px;
 }
 
 .img-container img{
@@ -176,11 +178,13 @@ ul{
 
 .text-container{
 
-    display: flex;
-    margin-right: auto;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 1000px;
+    /* display: flex;*/
+    /* margin-right: auto; */
+    /*flex-direction: column;*/
+    /*flex-wrap: wrap;*/
+
+    position: relative;
+    right: 250px;
 }
 
 h1{
@@ -207,32 +211,51 @@ p{
 
 .cir1{
 
-    background-color: blue;
-    width: 50px;
-    height: 50px;
+    background-color:blue;
+    width: 25px;
+    height: 25px;
     border-radius: 50px;
     margin-right: 20px;
+    margin-top: 500px;
+    position: relative;
+    left: 75px;
 }
 
-    .cir2{
+.cir2{
 
-        background-color:black;
-        width: 50px;
-        height: 50px;
-        border-radius: 50px;
-        margin-right: 20px;
-    }
+    background-color: black;
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    margin-right: 20px;
+    margin-top: 500px;
+    position: relative;
+    left: 75px;
+}
 
-    .cir3{
+.cir3{
 
-        background-color:orange;
-        width: 50px;
-        height: 50px;
-        border-radius: 50px;
-        margin-right: 20px;
-    }
+    background-color:orange;
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    margin-right: 20px;
+    margin-top: 500px;
+    position: relative;
+    left: 75px;
+}
 
+.color-container{
 
-.container{
     display: flex;
+
+
+}
+
+.paint-text{
+
+    position: relative;
+    right: 60px;
+    margin-top: 350px;
+
 }
